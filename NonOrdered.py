@@ -28,6 +28,10 @@ class NonOrdered:
     self.values[self.last_position] = value
 
   """
+
+  """
+  Insert removing already inserted value from list
+  """
   def insert(self, value):
     if self.last_position == self.capacity -1: 
       print("Max length reached")
